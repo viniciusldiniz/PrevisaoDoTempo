@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2c3e50, #e7e7e7);
+}
+
+.container {
+    text-align: center;
+}
+
+.heading {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.label, .input, .button {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 auto; /* Isso alinhará o botão horizontalmente ao centro */
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Isso alinhará o botão horizontalmente ao centro */
+
+}
+
+.button:hover {
+    background-color: #e67e22;
+}
+
+.weather {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+}
+.container {
+    text-align: center;
+    width: 400px; /* Defina a largura desejada */
+    padding: 20px;
+    border-radius: 20px; /* Define o raio dos cantos */
+    background: linear-gradient(135deg, #1c63aa, #0d21cf);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
